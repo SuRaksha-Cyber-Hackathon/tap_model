@@ -1,12 +1,12 @@
-# Tap Model - User Behavior Prediction System 🔮
+# Tap Model - User Behavior Prediction System 
 
 A sophisticated machine learning system that analyzes user tap patterns and behavior to predict user interactions across different application screens. This project implements a Siamese neural network for one-shot learning and user behavior classification.
 
-## 🎯 Project Overview
+## Project Overview
 
 This project was developed for the **SuRaksha Cyber Hackathon** and focuses on analyzing user interaction patterns to build predictive models for cybersecurity and user authentication applications. The system can identify users based on their unique tap patterns and predict their behavior across different application contexts.
 
-## 🚀 Features
+## Features
 
 - **User Behavior Analysis**: Analyzes tap coordinates, duration, and context screens
 - **Siamese Neural Network**: Implements one-shot learning for user identification
@@ -14,7 +14,7 @@ This project was developed for the **SuRaksha Cyber Hackathon** and focuses on a
 - **TensorFlow Lite Export**: Model optimization for mobile deployment
 - **Real-time Prediction**: Fast inference for live user behavior analysis
 
-## 📊 Dataset Features
+## Dataset Features
 
 The system analyzes the following user interaction features:
 
@@ -33,7 +33,7 @@ The system analyzes the following user interaction features:
 - `profile`
 - `statements`
 
-## 🛠️ Technical Architecture
+## Technical Architecture
 
 ### Machine Learning Pipeline:
 1. **Data Preprocessing**: Label encoding and normalization
@@ -47,7 +47,7 @@ The system analyzes the following user interaction features:
 - **Feature Normalization**: Coordinate and duration scaling
 - **Session Aggregation**: User behavior pattern extraction
 
-## 📋 Requirements
+## Requirements
 
 ```python
 tensorflow-cpu==2.12.0
@@ -59,7 +59,7 @@ jax>=0.4.30
 keras==2.12.0
 ```
 
-## 🚦 Getting Started
+## Getting Started
 
 ### Installation
 
@@ -118,7 +118,7 @@ Distance Calculation (Euclidean)
 Classification/Prediction
 ```
 
-## 📱 Mobile Deployment
+## Mobile Deployment
 
 The project includes TensorFlow Lite conversion for mobile deployment:
 
@@ -133,7 +133,7 @@ with open('tap_model.tflite', 'wb') as f:
     f.write(tflite_model)
 ```
 
-## 🎯 Use Cases
+## Use Cases
 
 - **Behavioral Biometrics**: User authentication through tap patterns
 - **Fraud Detection**: Identifying unusual user behavior
@@ -141,7 +141,7 @@ with open('tap_model.tflite', 'wb') as f:
 - **Security Applications**: Continuous authentication systems
 - **Mobile App Analytics**: Understanding user interaction patterns
 
-## 📊 Data Format
+## Data Format
 
 Expected input data format:
 
@@ -152,27 +152,17 @@ user_1,2,0.75,0.30,200,1640995201000,transfer_page
 ...
 ```
 
-## 🤝 Contributing
-
-This project was developed for the SuRaksha Cyber Hackathon. Contributions are welcome!
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
+## License
 
 This project is part of the SuRaksha Cyber Hackathon submission.
 
-## 🏆 Hackathon Context
+## Hackathon Context
 
 **Event**: SuRaksha Cyber Hackathon  
 **Focus**: Cybersecurity and User Behavior Analysis  
 **Objective**: Develop innovative solutions for user authentication and behavior prediction
 
-## 📞 Contact
+## Contact
 
 For questions or collaboration opportunities related to this hackathon project, please reach out through the GitHub repository.
 
